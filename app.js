@@ -10,9 +10,7 @@ var bodyParser = require('body-parser');
 // las rutas son los archivos que ejecutan la lógica en el servidor
 // cuando un cliente hace una petición. Los archivos están guardados
 // en el directorio `routes`
-var index = require('./routes/index');
-var users = require('./routes/users');
-var gatos = require('./routes/gato');
+var inicio = require('./routes/inicio');
 
 // **** PARA AGREGAR UNA NUEVA RUTA  ****
 // descomente y cambie los valores de la siguiente línea
@@ -40,9 +38,7 @@ app.use(express.static(path.join(__dirname, 'public')));
 
 // INTEGRACION DE LAS RUTAS EN LA APLICACION
 // ejecuta el codigo de JS cuando es llamado desde una URL por el cliente
-app.use('/', index);
-app.use('/hola', users);
-app.use('/gatos', gatos);
+app.use('/', inicio);
 // **** PARA AGREGAR UNA NUEVA RUTA  ****
 // descomente y cambie los valores de la siguiente línea
 // app.use('/DONDE?', NOMBRE_RUTA);

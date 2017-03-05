@@ -14,11 +14,11 @@ var router = express.Router();
 router.get('/', function(req, res) {
   // ejecuta el render de la vista `index` (archivo en `views/index.hbs`)
   // entrega información a la vista para ser inyectada en el HTML
-  res.render('index',
-    { title: 'Express',
-      saludo: 'hola a todos',
-      numero: 1,
-      gato: 'https://www.mundogato.net/wp-content/uploads/normas-de-higiene-en-los-gatos-1-485x300.jpg'
+  res.render('inicio',
+    { titulo: 'La FotoGAYfía de Velandia',
+      objetivo: 'Este proyecto pretende recopilar, digitalizar y exhibir el material fotográfico existente (pero desconocido) que Manuel Antonio Velandia Mora documentó sobre las manifestaciones sexual-políticas realizadas por los grupos de minorías sexuales, a finales del siglo XX en Bogotá.',
+      foto: 'https://www.mundogato.net/wp-content/uploads/normas-de-higiene-en-los-gatos-1-485x300.jpg',
+      frase: 'Siempre que buscamos explicarnos, nos convertimos en historias: Omar Rincon (2006)',
     }
   );
 });
