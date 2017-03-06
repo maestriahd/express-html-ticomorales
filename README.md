@@ -29,9 +29,11 @@ La actividad a realizar durante esta semana es la creación de nuevas rutas y vi
 
 |  Criterio  | %      |  Calificación |
 |----------|:-------------:|------:|
-| Redacción, ortografía, citación de fuentes |  40% | - |
-| Suficiencia en la implementación técnica nodejs, express, HTML |    60%   | - |
-| ** Nota Final** | | -|
+| Redacción, ortografía, citación de fuentes |  40% | 5.0 |
+| Suficiencia en la implementación técnica nodejs, express, HTML |    60%   | 5.0 |
+| ** Nota Final** | | 5.0 |
+
+Muy buena implementación técnica, en especial el uso de fuentes y formatos en CSS.
 
 ## Recursos
 
